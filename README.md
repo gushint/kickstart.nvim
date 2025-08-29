@@ -12,6 +12,9 @@ A starting point for Neovim that is:
 
 ## Installation
 
+```sh
+git clone https://github.com/gushint/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
 ### Install Neovim
 
 Kickstart.nvim targets *only* the latest
@@ -67,15 +70,8 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 
 #### Clone kickstart.nvim
 
-> [!NOTE]
-> If following the recommended step above (i.e., forking the repo), replace
-> `nvim-lua` with `<your_github_username>` in the commands below
-
 <details><summary> Linux and Mac </summary>
 
-```sh
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
-```
 
 </details>
 
